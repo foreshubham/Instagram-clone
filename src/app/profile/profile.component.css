@@ -1,0 +1,7 @@
+.profile-sec{
+    width: calc(100% - 338PX);
+    background-color: red;
+    height: 10vh;
+    display: flex;
+    float: inline-end;
+}

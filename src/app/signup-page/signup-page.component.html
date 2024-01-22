@@ -1,0 +1,24 @@
+<div class="main">
+
+    <form action="" [formGroup]="signupForm" (ngSubmit)="signUp()"> 
+
+    <div class="body">
+        <div class="img">
+            <img draggable="false" src="https://www.dafont.com/forum/attach/orig/8/1/815933.png?1" alt="">
+        </div>
+        <p>Sign up to see photos and videos <br> from your friends.</p>
+
+        <button><img src="" alt="">Log in with facebook</button>
+        
+        <div class="input-ff">
+            <input formControlName="email" type="email" placeholder="Mobile Number or Email">
+            <input formControlName="fullname" type="name" placeholder="Full Name">
+            <input formControlName="username" type="username" placeholder="Username">
+            <input formControlName="password" type="password" placeholder="Password">
+            <button>Signup</button>
+        </div>
+        <p><a routerLink="">Login </a></p>
+    </div>
+
+</form>
+</div>

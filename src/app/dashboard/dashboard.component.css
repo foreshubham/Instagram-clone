@@ -1,0 +1,156 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftt {
+  border-right: 1px solid #DBDBDB;
+  width: 335px;
+  height: 931px;
+  padding-left: 2vw;
+  
+}
+
+.leftt img {
+  margin-bottom: 40px;
+  width: 120px;
+  padding-top: 2vw;
+  cursor: pointer;
+}
+.links ul{
+  cursor: pointer;
+  
+}
+.inn p{
+  cursor: pointer;
+  
+}
+
+.links ul li a img {
+  cursor: pointer;
+  width: 30px;
+}
+
+.links ul li a img {
+  width: 30px;
+}
+
+.middlee {
+  width: 800px;
+  /* background-color: royalblue; */
+}
+
+.rightt {
+  width: 319px;
+  /* background-color: crimson; */
+  margin-right: 280px;
+  border-left: 1px solid #DBDBDB;
+}
+
+.inn {
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  height: 40px;
+  width: 250px;
+  align-items: center;
+  margin-bottom: 20px;
+  transition: all ease 0.2s;
+}
+.inn:hover{
+  background-color: #F2F2F2;
+}
+.inn:hover img{
+  scale: 1.05;
+}
+.inn img {
+  width: 22px;
+  margin-bottom: 47px;
+  margin-right: 25px;
+  transition: all ease 0.2s;
+}
+
+.storyia{
+   display: flex;
+   gap: 15px;
+   overflow-x: auto;
+   overflow-y: hidden;
+   border-bottom: 1px solid #DBDBDB;
+   padding: .5vw;
+}
+.storyia::-webkit-scrollbar{
+  display: none;
+}
+ 
+.story{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(216,32,204,1) 0%, rgba(255,197,0,1) 100%);
+  padding: 5px;
+  
+}
+.proff{
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.proff img{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ object-position: center;
+}
+
+.card
+{
+  width: 70%;
+  height: 600px;
+  /* background-color: red; */
+  margin-left: 120px;
+  margin-top: 50px;
+}
+.up{
+  padding: 1vw;
+  display: flex;
+  border-top: 1px solid #DBDBDB;
+  border-bottom: 1px solid #DBDBDB;
+}
+.up img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.up p{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.main-img img{
+  width: 90%;
+  height: 500px;
+  object-fit: cover;
+  margin-left: 1.7rem;
+  margin-top: 10px;
+}
+.pr{
+  width: 90%;
+  height: 80px;
+ border: 1px solid #DBDBDB;
+ margin-top: 20px;
+ margin-left: 15px;
+}
+.itmes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.itmes img{
+    justify-content: center;
+    width: 28px;
+    height: 100%;
+}
+.save{
+  margin-right: 30px;
+}

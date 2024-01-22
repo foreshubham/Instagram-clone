@@ -1,0 +1,28 @@
+{
+  "user-signup": [
+    {
+      "fullname": "Shubham",
+      "email": "shubh@gmail.com",
+      "password": "abc@123",
+      "mobile": "",
+      "username": "Shubham",
+      "id": 1
+    },
+    {
+      "fullname": "Sumaiya",
+      "email": "sumaiya@gmail.com",
+      "password": "abc@123",
+      "mobile": "",
+      "username": "angel",
+      "id": 2
+    },
+    {
+      "fullname": "Sumit",
+      "email": "9311062103",
+      "password": "git",
+      "mobile": "",
+      "username": "sumitt",
+      "id": 3
+    }
+  ]
+}

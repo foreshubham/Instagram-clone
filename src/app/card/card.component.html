@@ -1,0 +1,9 @@
+<div id="card">
+    <div id="full-screen"></div>
+    <div id="storiyan">
+      <div *ngFor="let item of arr; let i = index" id="story">
+        <img [id]="i" [src]="item.dp" (click)="showFullStory(i)" alt="">
+      </div>
+    </div>
+  </div>
+  

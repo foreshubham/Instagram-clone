@@ -1,0 +1,147 @@
+.head {
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(190, 206, 255); */
+}
+
+.brain {
+    position: relative;
+
+}
+
+.eye1 {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    top: 120px;
+    left: 27%;
+}
+.eye1 img{
+    width: 100%;
+}
+
+.eye2 {
+    width: 370px;
+    height: 402px;
+    background-color: #fff;
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    border: 1px solid #DBDBDB;
+
+}
+@media screen and (max-width:872px) {
+    .eye1 img{
+        display: none;
+    }
+}
+.eye2 img {
+    width: 48%;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+}
+.input-fields input{
+    height: 35px;
+    background-color: #fafafa;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #DBDBDB;
+    font-size: 12px;
+}
+.input-fields button{
+    background-color: #4CB5F9;
+   
+    height: 30px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+.eye2 p{
+    text-align: center;
+    font-size: 14px;
+    color: #737373;
+}
+.fb{
+    display: flex;
+}
+.fb img{
+    width: 20px;
+    height: 20px;
+    margin-top: 18px;
+}
+.fb a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #315185;
+}
+.fb p{
+    margin-top: 22px;
+}
+.fg-pass{
+    margin-top: 18px;
+    margin-bottom: 0;
+    
+}
+.signup{
+    height: 73px;
+    width: 100%;
+    border: 1px solid #DBDBDB;
+    margin-top: 35px;
+}
+.signup p{
+    padding: 1.5vw;
+    color: #000000;
+}
+.signup p span{
+color: #0095F6;
+}
+.bottom{
+    display: flex;
+    position: absolute;
+   margin-left: -3vw;
+   margin-top: -3vw;
+}
+.bottom img:first-child{
+    width: 134.281px;
+    margin-right: -60px;
+}
+.bottom img:last-child{
+    width: 110px;
+}
+.head{
+    position: relative;
+}
+.insider{
+    position: absolute;
+    top: 88%;
+    left: 26%;
+}
+.insider ul{
+    list-style: none;
+    gap: 20px;
+    display: flex;
+     justify-content: space-evenly;
+}
+
+.insider ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #737373;
+}
+.bott {
+margin-top: 20px;
+
+}
+.bott ul li:first-child{
+margin-left: 70px;
+}
+.bott ul li:last-child{
+    margin-left: -160px;
+}
